@@ -76,7 +76,7 @@ p.material-symbols-outlined:hover{
 /*--------------HEADER--FINAL------------*/
 
 .corpo_section_article {
-    background: black url(/Imagens/back-phone.jpg) no-repeat;
+    background: black url(Imagens\back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
