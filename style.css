@@ -28,7 +28,7 @@ text-align: center;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -49,6 +49,7 @@ menu > ul > li > a {
 
 .boxmenu{
 text-align: center;
+
 }
 
 menu > ul > li > a:hover {
@@ -64,6 +65,7 @@ p.material-symbols-outlined{
     display: block; 
    text-align: center;
    cursor: pointer;
+   padding: 5px;
 }
 
 p.material-symbols-outlined:hover{

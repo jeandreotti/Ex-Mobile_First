@@ -135,6 +135,7 @@ section::after{
     menu > ul > li {
         display: inline-block;
         width: 130px;
+        
     }
     p.material-symbols-outlined{
         display: none;

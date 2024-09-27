@@ -14,7 +14,10 @@
         <H1>Site responsivo</H1>
 
         <div class="boxmenu">
-            <p class="material-symbols-outlined" onclick ="clickMenu()">menu<p>
+           <!--<p class="material-symbols-outlined" onclick ="clickMenu()">menu<p>-->
+            <p class="material-symbols-outlined" onmouseenter="entrar()" onmouseout="sair()">menu</p>
+
+           
             <menu id="itens">
                 <ul>
                     <li><a href="">Opção 1</a></li>
@@ -65,14 +68,25 @@
                 itens.style.display = 'none'
             }
         }
+
+        var div = document.querySelector("material-symbols-outlined")
+
+        function entrar() {
+            itens.style.display = 'block' 
+        }
+
+        function sair() {
+            itens.style.display = 'none' 
+        }
         
-        function clickMenu(){
+        /*function clickMenu(){
            if (itens.style.display == 'block'){
             itens.style.display = 'none';
             } else { 
             itens.style.display = 'block';
             }
-        }
+        }*/
+
     </script>
 
 </body>
