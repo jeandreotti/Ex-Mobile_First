@@ -34,6 +34,7 @@ menu{
 menu > ul {
     list-style-type: none;
     list-style: none;
+   
 }
 
 
@@ -44,6 +45,7 @@ menu > ul > li > a {
     background-color: rgb(54, 50, 50);
     color: white;
     text-align: center;
+    
    
 }
 
