@@ -73,10 +73,12 @@ p.material-symbols-outlined:hover{
     
 }
 
+
+
 /*--------------HEADER--FINAL------------*/
 
-.corpo_section_article {
-    background: black url(imagens\back-phone.jpg) no-repeat;
+.imgfundo{
+    background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }

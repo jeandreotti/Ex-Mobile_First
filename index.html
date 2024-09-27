@@ -28,7 +28,7 @@
         </div>
     </header>
    
-    <div class="corpo_section_article">
+    <div class="imgfundo">
         <div class="section_article">
             <section>
                 <h2 id="h2celular">Celular</h2>
@@ -57,23 +57,23 @@
         </div>
     </div>
 
-<script>
-    function mudouTamanho(){
-        if(window.innerWidth >= 768) {
-            itens.style.display ='block'
-        }else {
-            itens.style.display = 'none'
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768) {
+                itens.style.display ='block'
+            }else {
+                itens.style.display = 'none'
+            }
         }
-    }
-    
-    function clickMenu(){
-       if (itens.style.display == 'block'){
-        itens.style.display = 'none';
-        } else { 
-        itens.style.display = 'block';
+        
+        function clickMenu(){
+           if (itens.style.display == 'block'){
+            itens.style.display = 'none';
+            } else { 
+            itens.style.display = 'block';
+            }
         }
-    }
-</script>
+    </script>
 
 </body>
 </html>
