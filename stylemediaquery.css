@@ -13,7 +13,7 @@ grandes telas: acima de 1200px*/
 @media print{
 /*impressao*/
 .imgfundo{
-    background-image: url(Imagens/back-print.jpg);/*desnecessário, nao impreme background*/
+    background-image: url(imagens/back-print.jpg);/*desnecessário, nao impreme background*/
 }
 section{
     border: 2px solid black;
@@ -39,7 +39,7 @@ section::after{
 @media screen and (min-width:568px) and (max-width:768px){
     /*tablet*/
     .imgfundo{
-        background-image: url(Imagens\back-tablet.jpg);
+        background-image: url(imagens\back-tablet.jpg);
        
     }
 
@@ -70,7 +70,7 @@ section::after{
 @media screen and (min-width:768px) and (max-width:1200px){
     /*desktop*/
     .imgfundo{
-        background-image: url(Imagens\icon-pc.png);
+        background-image: url(imagens\icon-pc.png);
        
     }
 
@@ -109,7 +109,7 @@ section::after{
 @media screen and (min-width:1200px){
     /*grandes telas*/
     .imgfundo{
-        background-image: url(Imagens\back-tv.jpg);
+        background-image: url(imagens\back-tv.jpg);
        
     }
     h2#h2celular{display: none;}
