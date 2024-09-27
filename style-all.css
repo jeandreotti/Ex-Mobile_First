@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/*versao mobile first*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*-----------HEADER--INICIO----------------*/
+
+header{
+    background-color: gray;
+    opacity: 80%;
+    
+}
+
+header > h1 {
+padding: 10px;
+text-align: center;
+}
+
+menu{
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+
+menu > ul > li > a {
+        display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(54, 50, 50);
+    color: white;
+    text-align: center;
+   
+}
+
+.boxmenu{
+text-align: center;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+    border: 1px solid black;
+    
+        
+}
+
+p.material-symbols-outlined{
+    color: white;
+    background-color: black;
+    display: block; 
+   text-align: center;
+   cursor: pointer;
+}
+
+p.material-symbols-outlined:hover{
+    background-color: white;
+    color: black;
+    
+    
+}
+
+/*--------------HEADER--FINAL------------*/
+
+.corpo_section_article {
+    background: black url(/Imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section_article{
+    padding-top: 10px;
+}
+
+/*---------------section--INICIO---------------*/
+
+section{
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 80VW;
+    margin: auto;
+    border-radius: 10px;
+}
+
+section > h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.842);
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+    h2#h2celular{display: block;}
+    h2#h2tablet{display: none;}
+    h2#h2impressora{display: none;}
+    h2#h2desktop{display: none;}
+    h2#h2tv{display: none;}
+    h2#h2print{display: none;}
+    
+    img#phone{display: block;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+
+    /*-------------section--FINAL-------------*/
+/*-------------ARTICLE--INICIO-------*/
+
+article{
+    width: 80VW;
+    background-color: rgba(255, 255, 255, 0.726);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article > .texto > h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.842);
+    padding-bottom: 10px;
+}
+
+article > .texto{
+    text-align: justify;
+    text-indent: 20px; /*paragrafo 20px*/
+}
+
+article > .texto > p {
+    margin-bottom: 10px;
+}
+
+
+/*-------------ARTICLE--FINAL-------------*/

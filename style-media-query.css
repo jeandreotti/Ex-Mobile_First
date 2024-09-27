@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*todas as demais mídias*/
+
+/*tipical device break point
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: 768px ate 992px
+desktop 992px ate 1200px
+grandes telas: acima de 1200px*/
+
+/*-------------impressao--inicio-------------*/
+@media print{
+/*impressao*/
+.imgfundo{
+    background-image: url(/Imagens/back-print.jpg);/*desnecessário, nao impreme background*/
+}
+section{
+    border: 2px solid black;
+}
+section h2{
+    text-shadow: none;
+   
+}
+section::after{
+    content: 'Essa impressão foi feita através do site www.jean.com.br';
+    font-size: 0.5em;
+    text-decoration: overline;
+}   
+    h2#h2print{display: block;}
+    h2#h2celular{display: none;}
+
+    img#print{display: block;}
+    img#phone{display: none;}
+}
+/*-------------impressao--FINAL-------------*/
+
+/*-------------tablet--inicio-------------*/
+@media screen and (min-width:568px) and (max-width:768px){
+    /*tablet*/
+    .imgfundo{
+        background-image: url(/Imagens/back-tablet.jpg);
+       
+    }
+
+    h2#h2celular{display: none;}
+    h2#h2tablet{display: block;}
+    h2#impressora{display: none;}
+    h2#h2desktop{display: none;}
+    h2#h2tv{display: none;}
+    h2#print{display: none;}
+
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+
+    section{
+        width: 500px;
+    }
+
+    article{
+        max-width: 500px;
+    }
+}
+/*-------------tablet--FINAL-------------*/
+
+/*-------------desktop--inicio-------------*/
+@media screen and (min-width:768px) and (max-width:1200px){
+    /*desktop*/
+    .imgfundo{
+        background-image: url(/Imagens/back-pc.jpg);
+       
+    }
+
+    h2#h2celular{display: none;}
+    h2#h2tablet{display: none;}
+    h2#impressora{display: none;}
+    h2#h2desktop{display: block;}
+    h2#h2tv{display: none;}
+    h2#print{display: none;}
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#desktop{display: block;}
+    img#tv{display: none;}
+
+    section{
+        width: 600px;
+    }
+
+    article{
+        max-width: 600px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        width: 122px;
+    }
+    p.material-symbols-outlined{
+        display: none;
+    }
+}
+/*-------------desktop--FINAL-------------*/
+
+/*-------------tv--inicio-------------*/
+@media screen and (min-width:1200px){
+    /*grandes telas*/
+    .imgfundo{
+        background-image: url(/Imagens/back-tv.jpg);
+       
+    }
+    h2#h2celular{display: none;}
+    h2#h2tablet{display: none;}
+    h2#impressora{display: none;}
+    h2#h2desktop{display: none;}
+    h2#h2tv{display: block;}
+    h2#print{display: none;}
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: block;}
+
+    section{
+        width: 768px;
+    }
+
+    article{
+        max-width: 768px;
+    }
+    menu > ul > li {
+        display: inline-block;
+        width: 130px;
+    }
+    p.material-symbols-outlined{
+        display: none;
+    }
+}
+
+
