@@ -80,7 +80,7 @@ p.material-symbols-outlined:hover{
 /*--------------HEADER--FINAL------------*/
 
 .imgfundo{
-    background: black url(backphone.jpg) no-repeat;
+    background: black url(./imagens/backphone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }

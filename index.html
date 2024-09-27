@@ -14,8 +14,8 @@
         <H1>Site responsivo</H1>
 
         <div class="boxmenu">
-           <!--<p class="material-symbols-outlined" onclick ="clickMenu()">menu<p>-->
-            <p class="material-symbols-outlined" onmouseenter="entrar()" onmouseout="sair()">menu</p>
+           <p class="material-symbols-outlined" onclick ="clickMenu()">menu<p>
+             <!--<p class="material-symbols-outlined" onmouseenter="entrar()" onmouseout="sair()">menu</p>-->
 
            
             <menu id="itens">
@@ -41,11 +41,11 @@
                 <h2 id="h2print">Impressora</h2>
             
                 <div>
-                    <img id="phone" src="iconphone.png" alt="Acessando via smartphone">
-                    <img id="tablet" src="icontablet.png" alt="Acessando via tablet">
-                    <img id="print" src="iconprint.png" alt="Versão para impressão">
-                    <img id="desktop" src="iconpc.png" alt="Versão para desktop">
-                    <img id="tv" src="icontv.png" alt="Versão para tv">
+                    <img id="phone" src="./imagens/iconphone.png" alt="Acessando via smartphone">
+                    <img id="tablet" src="./imagens/backtablet.jpg" alt="Acessando via tablet">
+                    <img id="print" src="./imagens/iconprint.png" alt="Versão para impressão">
+                    <img id="desktop" src="./imagens/iconpc.png" alt="Versão para desktop">
+                    <img id="tv" src="./imagens/icontv.png" alt="Versão para tv">
                 </div>
             </section>
             <article>
@@ -69,7 +69,7 @@
             }
         }
 
-        var div = document.querySelector("material-symbols-outlined")
+        /*var div = document.querySelector("material-symbols-outlined")
 
         function entrar() {
             itens.style.display = 'block' 
@@ -77,15 +77,15 @@
 
         function sair() {
             itens.style.display = 'none' 
-        }
+        }*/
         
-        /*function clickMenu(){
+        function clickMenu(){
            if (itens.style.display == 'block'){
             itens.style.display = 'none';
             } else { 
             itens.style.display = 'block';
             }
-        }*/
+        }
 
     </script>
 
