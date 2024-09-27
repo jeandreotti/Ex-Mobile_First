@@ -36,7 +36,7 @@ section::after{
 /*-------------impressao--FINAL-------------*/
 
 /*-------------tablet--inicio-------------*/
-@media screen and (min-width:568px) and (max-width:900px){
+@media screen and (min-width:568px) and (max-width:1000px){
     /*tablet*/
     .imgfundo{
         background-image: url(./imagens/backtablet.jpg);
@@ -67,7 +67,7 @@ section::after{
 /*-------------tablet--FINAL-------------*/
 
 /*-------------desktop--inicio-------------*/
-@media screen and (min-width:900px) and (max-width:1200px){
+@media screen and (min-width:1000px) and (max-width:1200px){
     /*desktop*/
     .imgfundo{
         background-image: url(./imagens/back-pc.jpg);
